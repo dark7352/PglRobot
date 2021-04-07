@@ -1,4 +1,4 @@
- # zombies Module Developed and Provided by @uday_gondaliya 
+# zombies Module Developed and Provided by @uday_gondaliya
 
 import asyncio
 from asyncio import sleep
@@ -48,7 +48,6 @@ async def is_administrator(user_id: int, message):
             admin = True
             break
     return admin
-
 
 
 @telethn.on(events.NewMessage(pattern=f"^[!/]zombies ?(.*)"))
